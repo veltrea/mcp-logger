@@ -16,7 +16,7 @@ macOS เป็นสภาพแวดล้อมหลักสำหรั�
 - **การติดตั้ง**: ใช้ `brew` เพื่อจัดการการอ้างอิง
 - **เส้นทางการตั้งค่า MCP**: `~/Library/Application Support/Claude/claude_desktop_config.json`
 
-## 3. การตั้งค่าบน Windows (WIN-CLIENT / BUILD-HOST)
+## 3. การตั้งค่าบน Windows (Remote-Server / Local-Server)
 ใช้สำหรับการรันเซิร์ฟเวอร์ Syslog และการตรวจสอบการทำงานของ Windows เฉพาะทาง
 
 - **Syslog**: ใช้ `vlt-syslogd` เป็นบริการพื้นฐาน

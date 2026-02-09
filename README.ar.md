@@ -27,10 +27,10 @@ cargo build --release
 
 ```bash
 # الإرسال الأساسي
-mcp-logger send 192.0.2.40 "مرحباً من CLI"
+mcp-logger send 192.0.2.100 "مرحباً من CLI"
 
 # الإرسال مع الخيارات
-mcp-logger send 192.0.2.40 "حدث خطأ" --severity error --tag my-app
+mcp-logger send 192.0.2.100 "حدث خطأ" --severity error --tag my-app
 ```
 
 سيؤدي تشغيل `mcp-logger` بدون أي وسيطات في الجهاز الطرفي إلى عرض **دليل إعداد MCP**.

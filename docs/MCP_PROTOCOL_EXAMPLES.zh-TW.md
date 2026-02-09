@@ -111,7 +111,7 @@ AI 根據該模式理解「應該傳遞哪些參數」。
   "params": {
     "name": "send-syslog",
     "arguments": {
-      "server": "192.0.2.40",
+      "server": "192.0.2.100",
       "port": 514,
       "facility": "local0",
       "severity": "error",
@@ -133,7 +133,7 @@ AI 根據該模式理解「應該傳遞哪些參數」。
     "content": [
       {
         "type": "text",
-        "text": "Success: Sent to 192.0.2.40:514 (Encoding: UTF-8)"
+        "text": "Success: Sent to 192.0.2.100:514 (Encoding: UTF-8)"
       }
     ],
     "isError": false

@@ -16,7 +16,7 @@ macOS क्लॉड डेस्कटॉप और Google Antigravity चल�
 - **स्थापना**: निर्भरता प्रबंधित करने के लिए `brew` का उपयोग करें।
 - **MCP कॉन्फ़िगरेशन पथ**: `~/Library/Application Support/Claude/claude_desktop_config.json`
 
-## 3. Windows सेटअप (WIN-CLIENT / BUILD-HOST)
+## 3. Windows सेटअप (Remote-Server / Local-Server)
 इसका उपयोग Syslog सर्वर चलाने और विशेष विंडोज कार्यों की जांच के लिए किया जाता है।
 
 - **Syslog**: बुनियादी सेवा के रूप में `vlt-syslogd` का उपयोग करें।

@@ -21,7 +21,7 @@ Antigravity와 같은 클라이언트 설정 파일(`mcp_config.json`)에 "이 �
     "--release",
     "--quiet",
     "--manifest-path",
-    "/path/to/your/rust-logger/mcp-logger/Cargo.toml"
+    "[LOCAL-PATH]/mcp-logger/Cargo.toml"
   ]
 }
 ```
@@ -30,7 +30,7 @@ Antigravity와 같은 클라이언트 설정 파일(`mcp_config.json`)에 "이 �
 
 ---
 
-## 2. Windows 11 (WIN-CLIENT / BUILD-HOST)
+## 2. Windows 11 (Remote-Server / Local-Server)
 
 Windows 환경에서 Antigravity(Claude Desktop 등)를 사용하는 경우의 절차입니다.
 
@@ -51,7 +51,7 @@ Windows 경로 형식에 맞게 설정합니다.
         "--release",
         "--quiet",
         "--manifest-path",
-        "C:\\path\\to\\your\\rust-logger\\mcp-logger\\Cargo.toml"
+        "C:\\[LOCAL-PATH]\\[mcp-logger]\\Cargo.toml"
       ]
     }
   }
@@ -83,7 +83,7 @@ sudo apt install build-essential
         "--release",
         "--quiet",
         "--manifest-path",
-        "/home/veltrea/DEV/rust-logger/mcp-logger/Cargo.toml"
+        "/home/[USER]/dev/rust-logger/mcp-logger/Cargo.toml"
       ]
     }
   }

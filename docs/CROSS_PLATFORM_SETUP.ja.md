@@ -21,7 +21,7 @@ Antigravity などのクライアント設定ファイル (`mcp_config.json`) �
     "--release",
     "--quiet",
     "--manifest-path",
-    "/path/to/your/rust-logger/mcp-logger/Cargo.toml"
+    "[LOCAL-PATH]/mcp-logger/Cargo.toml"
   ]
 }
 ```
@@ -30,7 +30,7 @@ Antigravity などのクライアント設定ファイル (`mcp_config.json`) �
 
 ---
 
-## 2. Windows 11 (WIN-CLIENT / BUILD-HOST)
+## 2. Windows 11 (Remote-Server / Local-Server)
 
 Windows 環境で Antigravity (Claude Desktop 等) を使う場合の手順です。
 
@@ -51,7 +51,7 @@ Windows のパス形式に合わせて設定します。
         "--release",
         "--quiet",
         "--manifest-path",
-        "C:\\path\\to\\your\\rust-logger\\mcp-logger\\Cargo.toml"
+        "C:\\[LOCAL-PATH]\\[mcp-logger]\\Cargo.toml"
       ]
     }
   }
@@ -83,7 +83,7 @@ sudo apt install build-essential
         "--release",
         "--quiet",
         "--manifest-path",
-        "/home/veltrea/DEV/rust-logger/mcp-logger/Cargo.toml"
+        "/home/[USER]/dev/rust-logger/mcp-logger/Cargo.toml"
       ]
     }
   }

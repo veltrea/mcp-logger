@@ -111,7 +111,7 @@ AI がツールを使うと判断した場合、具体的な引数を指定し�
   "params": {
     "name": "send-syslog",
     "arguments": {
-      "server": "192.0.2.40",
+      "server": "192.0.2.100",
       "port": 514,
       "facility": "local0",
       "severity": "error",
@@ -133,7 +133,7 @@ AI がツールを使うと判断した場合、具体的な引数を指定し�
     "content": [
       {
         "type": "text",
-        "text": "Success: Sent to 192.0.2.40:514 (Encoding: UTF-8)"
+        "text": "Success: Sent to 192.0.2.100:514 (Encoding: UTF-8)"
       }
     ],
     "isError": false

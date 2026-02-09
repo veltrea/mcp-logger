@@ -57,7 +57,7 @@ MCP (मॉडल संदर्भ प्रोटोकॉल) का मु�
   "params": {
     "name": "send-syslog",
     "arguments": {
-      "server": "192.0.2.40",
+      "server": "192.0.2.100",
       "message": "हिंदी संदेश भेजने का परीक्षण",
       "severity": "info",
       "encoding": "utf-8"
@@ -76,7 +76,7 @@ MCP (मॉडल संदर्भ प्रोटोकॉल) का मु�
     "content": [
       {
         "type": "text",
-        "text": "Successfully sent Syslog to 192.0.2.40:514"
+        "text": "Successfully sent Syslog to 192.0.2.100:514"
       }
     ]
   },
