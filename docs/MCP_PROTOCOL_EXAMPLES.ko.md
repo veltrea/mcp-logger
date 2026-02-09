@@ -111,7 +111,7 @@ AI가 도구를 사용하기로 결정하면 구체적인 인자를 지정하여
   "params": {
     "name": "send-syslog",
     "arguments": {
-      "server": "192.168.1.40",
+      "server": "192.168.1.100",
       "port": 514,
       "facility": "local0",
       "severity": "error",
@@ -133,7 +133,7 @@ AI가 도구를 사용하기로 결정하면 구체적인 인자를 지정하여
     "content": [
       {
         "type": "text",
-        "text": "Success: Sent to 192.168.1.40:514 (Encoding: UTF-8)"
+        "text": "Success: Sent to 192.168.1.100:514 (Encoding: UTF-8)"
       }
     ],
     "isError": false

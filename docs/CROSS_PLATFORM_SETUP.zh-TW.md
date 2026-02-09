@@ -21,7 +21,7 @@
     "--release",
     "--quiet",
     "--manifest-path",
-    "/path/to/your/rust-logger/mcp-logger/Cargo.toml"
+    "[LOCAL-PATH]/mcp-logger/Cargo.toml"
   ]
 }
 ```
@@ -30,7 +30,7 @@
 
 ---
 
-## 2. Windows 11 (LLM-SVR1 / WORK1)
+## 2. Windows 11 (Remote-Server / Local-Server)
 
 在 Windows 環境中使用 Antigravity（Claude Desktop 等）時的步驟。
 
@@ -51,7 +51,7 @@
         "--release",
         "--quiet",
         "--manifest-path",
-        "C:\\path\\to\\your\\rust-logger\\mcp-logger\\Cargo.toml"
+        "C:\\[LOCAL-PATH]\\[mcp-logger]\\Cargo.toml"
       ]
     }
   }
@@ -83,7 +83,7 @@ sudo apt install build-essential
         "--release",
         "--quiet",
         "--manifest-path",
-        "/home/veltrea/DEV/rust-logger/mcp-logger/Cargo.toml"
+        "/home/[USER]/dev/rust-logger/mcp-logger/Cargo.toml"
       ]
     }
   }

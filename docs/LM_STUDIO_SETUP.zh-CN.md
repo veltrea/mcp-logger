@@ -24,7 +24,7 @@
 ```
 ※ 请根据实际环境指定构建的二进制文件路径和用户名。
 
-### Windows (LLM-SVR1 等)
+### Windows (Remote-Server 等)
 
 ```json
 "mcp-logger": {

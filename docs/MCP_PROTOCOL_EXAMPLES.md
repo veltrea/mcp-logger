@@ -111,7 +111,7 @@ If the AI decides to use a tool, it sends an execution request with specific arg
   "params": {
     "name": "send-syslog",
     "arguments": {
-      "server": "192.168.1.40",
+      "server": "192.168.1.100",
       "port": 514,
       "facility": "local0",
       "severity": "error",
@@ -133,7 +133,7 @@ The server executes the process (sends UDP packet) and returns the result as tex
     "content": [
       {
         "type": "text",
-        "text": "Success: Sent to 192.168.1.40:514 (Encoding: UTF-8)"
+        "text": "Success: Sent to 192.168.1.100:514 (Encoding: UTF-8)"
       }
     ],
     "isError": false

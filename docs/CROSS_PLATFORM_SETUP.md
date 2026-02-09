@@ -21,7 +21,7 @@ Automatically configured. The following settings have been added to `~/.gemini/a
     "--release",
     "--quiet",
     "--manifest-path",
-    "/path/to/your/rust-logger/mcp-logger/Cargo.toml"
+    "[LOCAL-PATH]/mcp-logger/Cargo.toml"
   ]
 }
 ```
@@ -30,7 +30,7 @@ Automatically configured. The following settings have been added to `~/.gemini/a
 
 ---
 
-## 2. Windows 11 (LLM-SVR1 / WORK1)
+## 2. Windows 11 (Remote-Server / Local-Server)
 
 Instructions for using Antigravity (or Claude Desktop, etc.) in a Windows environment.
 
@@ -51,7 +51,7 @@ Configure according to the Windows path format.
         "--release",
         "--quiet",
         "--manifest-path",
-        "C:\\path\\to\\your\\rust-logger\\mcp-logger\\Cargo.toml"
+        "C:\\[LOCAL-PATH]\\[mcp-logger]\\Cargo.toml"
       ]
     }
   }
@@ -83,7 +83,7 @@ sudo apt install build-essential
         "--release",
         "--quiet",
         "--manifest-path",
-        "/home/veltrea/DEV/rust-logger/mcp-logger/Cargo.toml"
+        "/home/[USER]/dev/rust-logger/mcp-logger/Cargo.toml"
       ]
     }
   }

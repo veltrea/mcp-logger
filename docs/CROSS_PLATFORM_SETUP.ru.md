@@ -16,7 +16,7 @@ macOS является основной средой для запуска Claud
 - **Установка**: Используйте `brew` для управления зависимостями.
 - **Путь конфигурации MCP**: `~/Library/Application Support/Claude/claude_desktop_config.json`
 
-## 3. Настройка в Windows (LLM-SVR1 / WORK1)
+## 3. Настройка в Windows (Remote-Server / Local-Server)
 Используется для запуска серверов Syslog и проверки специфических задач Windows.
 
 - **Syslog**: Используйте `vlt-syslogd` в качестве основной службы.

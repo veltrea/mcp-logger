@@ -27,10 +27,10 @@ cargo build --release
 
 ```bash
 # การส่งพื้นฐาน
-mcp-logger send 192.168.1.40 "สวัสดีจาก CLI"
+mcp-logger send 192.168.1.100 "สวัสดีจาก CLI"
 
 # ส่งพร้อมตัวเลือก
-mcp-logger send 192.168.1.40 "เกิดข้อผิดพลาด" --severity error --tag my-app
+mcp-logger send 192.168.1.100 "เกิดข้อผิดพลาด" --severity error --tag my-app
 ```
 
 การรัน `mcp-logger` โดยไม่มีอาร์กิวเมนต์ในเทอร์มินัลจะแสดง **คู่มือการตั้งค่า MCP**

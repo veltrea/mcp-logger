@@ -24,7 +24,7 @@ Thêm nội dung sau vào tệp cấu hình MCP của LM Studio (thông thườn
 ```
 *Lưu ý: Vui lòng chỉ định vị trí thực tế của tệp thực thi bạn đã biên dịch cho đường dẫn và tên người dùng.*
 
-### Windows (LLM-SVR1, v.v.)
+### Windows (Remote-Server, v.v.)
 
 ```json
 "mcp-logger": {

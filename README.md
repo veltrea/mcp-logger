@@ -27,10 +27,10 @@ You can send logs directly from your terminal.
 
 ```bash
 # Basic send
-mcp-logger send 192.168.1.40 "Hello from CLI"
+mcp-logger send 192.168.1.100 "Hello from CLI"
 
 # With options
-mcp-logger send 192.168.1.40 "Error occurred" --severity error --tag my-app
+mcp-logger send 192.168.1.100 "Error occurred" --severity error --tag my-app
 ```
 
 Running `mcp-logger` without arguments in a terminal will display the **MCP Setup Guide**.

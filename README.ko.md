@@ -27,10 +27,10 @@ cargo build --release
 
 ```bash
 # 기본 전송
-mcp-logger send 192.168.1.40 "CLI에서 보낸 메시지"
+mcp-logger send 192.168.1.100 "CLI에서 보낸 메시지"
 
 # 옵션 포함 전송
-mcp-logger send 192.168.1.40 "에러 발생" --severity error --tag my-app
+mcp-logger send 192.168.1.100 "에러 발생" --severity error --tag my-app
 ```
 
 터미널에서 인자 없이 `mcp-logger`를 실행하면 **MCP 설정 가이드**가 표시됩니다.

@@ -111,7 +111,7 @@ Nếu AI quyết định sử dụng một công cụ, nó sẽ gửi yêu cầu
   "params": {
     "name": "send-syslog",
     "arguments": {
-      "server": "192.168.1.40",
+      "server": "192.168.1.100",
       "port": 514,
       "facility": "local0",
       "severity": "error",
@@ -133,7 +133,7 @@ Máy chủ thực thi quy trình (gửi gói tin UDP) và trả về kết quả
     "content": [
       {
         "type": "text",
-        "text": "Success: Sent to 192.168.1.40:514 (Encoding: UTF-8)"
+        "text": "Success: Sent to 192.168.1.100:514 (Encoding: UTF-8)"
       }
     ],
     "isError": false

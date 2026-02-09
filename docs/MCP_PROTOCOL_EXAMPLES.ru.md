@@ -57,7 +57,7 @@
   "params": {
     "name": "send-syslog",
     "arguments": {
-      "server": "192.168.1.40",
+      "server": "192.168.1.100",
       "message": "Тест отправки сообщения на русском языке",
       "severity": "info",
       "encoding": "utf-8"
@@ -76,7 +76,7 @@
     "content": [
       {
         "type": "text",
-        "text": "Successfully sent Syslog to 192.168.1.40:514"
+        "text": "Successfully sent Syslog to 192.168.1.100:514"
       }
     ]
   },

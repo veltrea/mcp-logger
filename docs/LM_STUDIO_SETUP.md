@@ -24,7 +24,7 @@ Add the following to your LM Studio MCP configuration file (usually `~/.lmstudio
 ```
 *Note: Please specify the actual location of your built binary for the path and username.*
 
-### Windows (LLM-SVR1, etc.)
+### Windows (Remote-Server, etc.)
 
 ```json
 "mcp-logger": {

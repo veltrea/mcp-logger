@@ -27,10 +27,10 @@ cargo build --release
 
 ```bash
 # 基本送信
-mcp-logger send 192.168.1.40 "Hello from CLI"
+mcp-logger send 192.168.1.100 "Hello from CLI"
 
 # オプション指定
-mcp-logger send 192.168.1.40 "エラー発生" --severity error --tag my-app
+mcp-logger send 192.168.1.100 "エラー発生" --severity error --tag my-app
 ```
 
 引数なしで実行すると **MCP 設定ガイド** が表示されます。

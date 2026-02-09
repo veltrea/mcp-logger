@@ -24,7 +24,7 @@
 ```
 ※ 請根據實際環境指定編譯的執行檔路徑和使用者名稱。
 
-### Windows (LLM-SVR1 等)
+### Windows (Remote-Server 等)
 
 ```json
 "mcp-logger": {

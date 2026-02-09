@@ -24,7 +24,7 @@ LM Studio의 MCP 설정 파일(보통 `~/.lmstudio/config.json`이나 `mcp.json`
 ```
 ※ 경로 및 사용자 이름은 환경에 맞게 빌드된 바이너리 위치를 지정하십시오.
 
-### Windows (LLM-SVR1 등)
+### Windows (Remote-Server 등)
 
 ```json
 "mcp-logger": {

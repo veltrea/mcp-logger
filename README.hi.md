@@ -27,10 +27,10 @@ cargo build --release
 
 ```bash
 # बुनियादी संदेश भेजना
-mcp-logger send 192.168.1.40 "CLI से नमस्कार"
+mcp-logger send 192.168.1.100 "CLI से नमस्कार"
 
 # विकल्पों के साथ भेजना
-mcp-logger send 192.168.1.40 "त्रुटि हुई" --severity error --tag my-app
+mcp-logger send 192.168.1.100 "त्रुटि हुई" --severity error --tag my-app
 ```
 
 टर्मिनल में बिना किसी तर्क के `mcp-logger` चलाने पर **MCP सेटअप गाइड** दिखाई देगी।

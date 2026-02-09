@@ -27,10 +27,10 @@ cargo build --release
 
 ```bash
 # Базовая отправка
-mcp-logger send 192.168.1.40 "Привет из CLI"
+mcp-logger send 192.168.1.100 "Привет из CLI"
 
 # Отправка с опциями
-mcp-logger send 192.168.1.40 "Произошла ошибка" --severity error --tag my-app
+mcp-logger send 192.168.1.100 "Произошла ошибка" --severity error --tag my-app
 ```
 
 Запуск `mcp-logger` без аргументов в терминале отобразит **руководство по настройке MCP**.

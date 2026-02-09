@@ -27,10 +27,10 @@ Bạn có thể gửi nhật ký trực tiếp từ terminal của mình.
 
 ```bash
 # Gửi cơ bản
-mcp-logger send 192.168.1.40 "Xin chào từ CLI"
+mcp-logger send 192.168.1.100 "Xin chào từ CLI"
 
 # Gửi với các tùy chọn
-mcp-logger send 192.168.1.40 "Đã xảy ra lỗi" --severity error --tag my-app
+mcp-logger send 192.168.1.100 "Đã xảy ra lỗi" --severity error --tag my-app
 ```
 
 Chạy `mcp-logger` không có đối số trong terminal sẽ hiển thị **Hướng dẫn thiết lập MCP**.

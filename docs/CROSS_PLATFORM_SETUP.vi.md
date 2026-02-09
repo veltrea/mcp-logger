@@ -21,7 +21,7 @@ Nó tích hợp với các ứng dụng như Antigravity bằng cách thêm mộ
     "--release",
     "--quiet",
     "--manifest-path",
-    "/path/to/your/rust-logger/mcp-logger/Cargo.toml"
+    "[LOCAL-PATH]/mcp-logger/Cargo.toml"
   ]
 }
 ```
@@ -30,7 +30,7 @@ Nó tích hợp với các ứng dụng như Antigravity bằng cách thêm mộ
 
 ---
 
-## 2. Windows 11 (LLM-SVR1 / WORK1)
+## 2. Windows 11 (Remote-Server / Local-Server)
 
 Các bước sử dụng Antigravity (hoặc Claude Desktop, v.v.) trong môi trường Windows.
 
@@ -51,7 +51,7 @@ Thiết lập theo định dạng đường dẫn của Windows.
         "--release",
         "--quiet",
         "--manifest-path",
-        "C:\\path\\to\\your\\rust-logger\\mcp-logger\\Cargo.toml"
+        "C:\\[LOCAL-PATH]\\[mcp-logger]\\Cargo.toml"
       ]
     }
   }
@@ -83,7 +83,7 @@ sudo apt install build-essential
         "--release",
         "--quiet",
         "--manifest-path",
-        "/home/veltrea/DEV/rust-logger/mcp-logger/Cargo.toml"
+        "/home/[USER]/dev/rust-logger/mcp-logger/Cargo.toml"
       ]
     }
   }

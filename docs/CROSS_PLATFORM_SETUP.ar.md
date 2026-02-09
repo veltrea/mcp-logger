@@ -16,7 +16,7 @@
 - **التثبيت**: استخدم `brew` لإدارة التبعيات.
 - **مسار تكوين MCP**: `~/Library/Application Support/Claude/claude_desktop_config.json`
 
-## 3. إعداد Windows (LLM-SVR1 / WORK1)
+## 3. إعداد Windows (Remote-Server / Local-Server)
 يستخدم لتشغيل خوادم Syslog والتحقق من مهام ويندوز الخاصة.
 
 - **Syslog**: استخدم `vlt-syslogd` كخدمة أساسية.

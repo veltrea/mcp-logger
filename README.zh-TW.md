@@ -27,10 +27,10 @@ cargo build --release
 
 ```bash
 # 基本發送
-mcp-logger send 192.168.1.40 "來自 CLI 的問候"
+mcp-logger send 192.168.1.100 "來自 CLI 的問候"
 
 # 帶選項發送
-mcp-logger send 192.168.1.40 "發生錯誤" --severity error --tag my-app
+mcp-logger send 192.168.1.100 "發生錯誤" --severity error --tag my-app
 ```
 
 在終端機中執行不帶參數的 `mcp-logger` 將顯示 **MCP 設置指引**。
